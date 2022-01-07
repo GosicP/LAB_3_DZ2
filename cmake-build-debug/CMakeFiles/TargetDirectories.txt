@@ -1,0 +1,3 @@
+C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/cmake-build-debug/CMakeFiles/LAB_3_DZ2.dir
+C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/cmake-build-debug/CMakeFiles/edit_cache.dir
