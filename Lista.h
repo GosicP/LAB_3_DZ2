@@ -60,17 +60,18 @@ public:
         brisi();
     }
 
-    void operator += (T& podatak){
+    Lista& operator += (T& podatak){
         last=(!first ? first : last->next)=new node(podatak);
         last->pozicija=ukupan_br;
         ukupan_br++;
+        return *this;
     }
 
     int dohvBrojUListi(){
         return ukupan_br;
     }
 
-    T dohvPodatakSaPozicije(int i){
+    T& operator [](int i){
         for(node* temp=first; temp; temp=temp->next){
             if(i>ukupan_br){
                 throw GNemaElementa();

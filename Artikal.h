@@ -7,14 +7,15 @@
 class Artikal {
 private:
     string naziv;
-    int barkod, realna_nabavna_cena;
+    int barkod;
+    double nabavna_cena;
 
 public:
 
     Artikal(string name, int barcode, int nabcena){
         naziv=name;
         barkod=barcode;
-        realna_nabavna_cena=nabcena;
+        nabavna_cena=nabcena;
     }
 
     const string &getNaziv() const {
@@ -25,8 +26,8 @@ public:
         return barkod;
     }
 
-    int getRealnaNabavnaCena() const {
-        return realna_nabavna_cena;
+    double getRealnaNabavnaCena() const {
+        return nabavna_cena;
     }
 
     bool operator ==(Artikal& a2){

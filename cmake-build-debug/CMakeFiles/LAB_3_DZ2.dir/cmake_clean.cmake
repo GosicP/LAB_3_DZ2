@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.obj"
+  "CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.obj"
+  "CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.obj"
   "CMakeFiles/LAB_3_DZ2.dir/main.cpp.obj"
   "LAB_3_DZ2.exe"
   "LAB_3_DZ2.exe.manifest"

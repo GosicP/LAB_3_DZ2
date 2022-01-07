@@ -89,34 +89,49 @@ CMakeFiles/LAB_3_DZ2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_3_DZ2.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\main.cpp -o CMakeFiles\LAB_3_DZ2.dir\main.cpp.s
 
-CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.obj: CMakeFiles/LAB_3_DZ2.dir/flags.make
-CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.obj: ../Artikal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB_3_DZ2.dir\Artikal.cpp.obj -c C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\Artikal.cpp
+CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.obj: CMakeFiles/LAB_3_DZ2.dir/flags.make
+CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.obj: ../Posiljka.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB_3_DZ2.dir\Posiljka.cpp.obj -c C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\Posiljka.cpp
 
-CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\Artikal.cpp > CMakeFiles\LAB_3_DZ2.dir\Artikal.cpp.i
+CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\Posiljka.cpp > CMakeFiles\LAB_3_DZ2.dir\Posiljka.cpp.i
 
-CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\Artikal.cpp -o CMakeFiles\LAB_3_DZ2.dir\Artikal.cpp.s
+CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\Posiljka.cpp -o CMakeFiles\LAB_3_DZ2.dir\Posiljka.cpp.s
+
+CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.obj: CMakeFiles/LAB_3_DZ2.dir/flags.make
+CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.obj: ../Prodavac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB_3_DZ2.dir\Prodavac.cpp.obj -c C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\Prodavac.cpp
+
+CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\Prodavac.cpp > CMakeFiles\LAB_3_DZ2.dir\Prodavac.cpp.i
+
+CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\Prodavac.cpp -o CMakeFiles\LAB_3_DZ2.dir\Prodavac.cpp.s
 
 # Object files for target LAB_3_DZ2
 LAB_3_DZ2_OBJECTS = \
 "CMakeFiles/LAB_3_DZ2.dir/main.cpp.obj" \
-"CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.obj"
+"CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.obj" \
+"CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.obj"
 
 # External object files for target LAB_3_DZ2
 LAB_3_DZ2_EXTERNAL_OBJECTS =
 
 LAB_3_DZ2.exe: CMakeFiles/LAB_3_DZ2.dir/main.cpp.obj
-LAB_3_DZ2.exe: CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.obj
+LAB_3_DZ2.exe: CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.obj
+LAB_3_DZ2.exe: CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.obj
 LAB_3_DZ2.exe: CMakeFiles/LAB_3_DZ2.dir/build.make
 LAB_3_DZ2.exe: CMakeFiles/LAB_3_DZ2.dir/linklibs.rsp
 LAB_3_DZ2.exe: CMakeFiles/LAB_3_DZ2.dir/objects1.rsp
 LAB_3_DZ2.exe: CMakeFiles/LAB_3_DZ2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LAB_3_DZ2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LAB_3_DZ2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LAB_3_DZ2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

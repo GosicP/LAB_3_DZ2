@@ -142,32 +142,59 @@ LAB_3_DZ2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ2.dir\build.make CMakeFiles/LAB_3_DZ2.dir/build
 .PHONY : LAB_3_DZ2/fast
 
-Artikal.obj: Artikal.cpp.obj
+Posiljka.obj: Posiljka.cpp.obj
 
-.PHONY : Artikal.obj
+.PHONY : Posiljka.obj
 
 # target to build an object file
-Artikal.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ2.dir\build.make CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.obj
-.PHONY : Artikal.cpp.obj
+Posiljka.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ2.dir\build.make CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.obj
+.PHONY : Posiljka.cpp.obj
 
-Artikal.i: Artikal.cpp.i
+Posiljka.i: Posiljka.cpp.i
 
-.PHONY : Artikal.i
+.PHONY : Posiljka.i
 
 # target to preprocess a source file
-Artikal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ2.dir\build.make CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.i
-.PHONY : Artikal.cpp.i
+Posiljka.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ2.dir\build.make CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.i
+.PHONY : Posiljka.cpp.i
 
-Artikal.s: Artikal.cpp.s
+Posiljka.s: Posiljka.cpp.s
 
-.PHONY : Artikal.s
+.PHONY : Posiljka.s
 
 # target to generate assembly for a file
-Artikal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ2.dir\build.make CMakeFiles/LAB_3_DZ2.dir/Artikal.cpp.s
-.PHONY : Artikal.cpp.s
+Posiljka.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ2.dir\build.make CMakeFiles/LAB_3_DZ2.dir/Posiljka.cpp.s
+.PHONY : Posiljka.cpp.s
+
+Prodavac.obj: Prodavac.cpp.obj
+
+.PHONY : Prodavac.obj
+
+# target to build an object file
+Prodavac.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ2.dir\build.make CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.obj
+.PHONY : Prodavac.cpp.obj
+
+Prodavac.i: Prodavac.cpp.i
+
+.PHONY : Prodavac.i
+
+# target to preprocess a source file
+Prodavac.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ2.dir\build.make CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.i
+.PHONY : Prodavac.cpp.i
+
+Prodavac.s: Prodavac.cpp.s
+
+.PHONY : Prodavac.s
+
+# target to generate assembly for a file
+Prodavac.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ2.dir\build.make CMakeFiles/LAB_3_DZ2.dir/Prodavac.cpp.s
+.PHONY : Prodavac.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -205,9 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LAB_3_DZ2
-	@echo ... Artikal.obj
-	@echo ... Artikal.i
-	@echo ... Artikal.s
+	@echo ... Posiljka.obj
+	@echo ... Posiljka.i
+	@echo ... Posiljka.s
+	@echo ... Prodavac.obj
+	@echo ... Prodavac.i
+	@echo ... Prodavac.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -82,13 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/Artikal.cpp">
-			<Option target="LAB_3_DZ2"/>
-		</Unit>
 		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/Artikal.h">
 			<Option target="LAB_3_DZ2"/>
 		</Unit>
 		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/Lista.h">
+			<Option target="LAB_3_DZ2"/>
+		</Unit>
+		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/Posiljka.cpp">
+			<Option target="LAB_3_DZ2"/>
+		</Unit>
+		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/Posiljka.h">
+			<Option target="LAB_3_DZ2"/>
+		</Unit>
+		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/Prodavac.cpp">
+			<Option target="LAB_3_DZ2"/>
+		</Unit>
+		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/Prodavac.h">
+			<Option target="LAB_3_DZ2"/>
+		</Unit>
+		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/Rukovalac.h">
 			<Option target="LAB_3_DZ2"/>
 		</Unit>
 		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ2/main.cpp">
