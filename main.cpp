@@ -7,19 +7,25 @@ int main() {
     Artikal a2("Olovka", 105, 50);
     Artikal a3("Tunjevina", 202, 150);
 
-    Prodavac p("Pavle");
+    Prodavac *prodavac=new Prodavac("Pavle");
 
     Posiljka posiljka(a1);
 
-    p.dodajUKatalog(a1, 0.23, 5);
-    p.dodajUKatalog(a2, 0.2, 11);
+    prodavac->dodajUKatalog(a1, 0.23, 5);
+    prodavac->dodajUKatalog(a2, 0.2, 11);
 
-    p.obrada(posiljka);
+    //prodavac->obrada(posiljka);
+
+    posiljka+=prodavac;
 
 
-    //cout<<posiljka;
 
-    cout<<p;
+    posiljka.izracunajDetalje();
+
+
+    cout<<posiljka;
+
+    cout<<*prodavac;
 
 
 
