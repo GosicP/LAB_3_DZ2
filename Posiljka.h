@@ -66,7 +66,10 @@ public:
         return detalj;
     }
 
-    friend ostream& operator <<(ostream& os, Posiljka& p){}
+    friend ostream& operator <<(ostream& os, Posiljka& p){
+        p.pisi(os);
+        return os;
+    }
 
 };
 

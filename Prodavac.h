@@ -11,11 +11,11 @@ private:
         double marza=0;
         int broj_dana_za_nabavku=0;
 
-        /*tip_podatka_lista(Artikal a, double m, int bdzn): artikal(a){
+        tip_podatka_lista(Artikal a, double m, int bdzn): artikal(a){
             marza=m;
             broj_dana_za_nabavku=bdzn;
-        }*/
-        tip_podatka_lista()=default;
+        }
+        //tip_podatka_lista()=default;
 
     };
 
@@ -38,8 +38,8 @@ public:
         return naziv;
     }
 
-    void dodajUKatalog(Artikal& a, double marge, int dani_nabavka){
-        tip_podatka_lista *katalog;
+    void dodajUKatalog(Artikal a,double marge, int dani_nabavka){
+        tip_podatka_lista *katalog=new tip_podatka_lista(a, marge, dani_nabavka);
         katalog->artikal=a;
         katalog->marza=marge;
         katalog->broj_dana_za_nabavku=dani_nabavka;
@@ -54,6 +54,13 @@ public:
                 p.detalj.cena_posiljke=p.detalj.cena_posiljke+prodajna_cena_artikla;
             }
         }
+    }
+
+    friend ostream& operator << (ostream& os, Prodavac& p){
+        for(int i=0; i<p.lista_katalog.dohvBrojUListi(); i++){
+            os<<p.lista_katalog[i]->artikal.getNaziv()<<endl;
+        }
+        return os;
     }
 
 
